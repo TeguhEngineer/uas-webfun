@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+overflow-x: hidden;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.navbar-atas {
+background-color: #3fc2ce;
+font-size: 12px;
+padding: 0px;
+height: 35px;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-text {
+color: black;
+}
+
+.navbar-bawah a:hover {
+color: rgb(255, 198, 132);
+}
+
+.pesan-diskon {
+font-size: 17px;
+}
+
+.pencarian {
+border-radius: 8px;
+border-color: #eaeaea;
+}
+
+.hero {
+background-color: #f8f9fa;
+padding: 5px 0;
+text-align: center;
+}
+
+.hero img {
+width: 100%;
+max-height: 400px;
+}
+
+/* Filter */
+.filter-button button {
+background-color: #e6e6e6;
+border-radius: 5px;
+}
+.filter-button button:hover {
+background-color: #e6e6e6;
+border-radius: 5px;
+}
+.filter-button-kanan button {
+/* background-color: #e6e6e6; */
+border-color: #b4b4b4;
+border-radius: 5px;
+}
+.filter-button-kanan button:hover {
+/* background-color: #e6e6e6; */
+border-color: #b4b4b4;
+border-radius: 5px;
+}
+
+/* Cart */
+.form-check-input {
+border: solid 1px;
+}
+
+.card-cart {
+position: relative;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.form-produk {
+scale: 70%;
+position: absolute;
+bottom: 0;
+right: -85px;
+}
+
+.form-control-sm {
+width: 40px;
+}
+
+.text-bottom {
+position: absolute;
+bottom: 0px;
+}
+
+section .product1 {
+	text-align: center;
+}
+
+
+section .product1 .pro {
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+}
+
+
+/* Dekstop styles */
+@media (max-width: 1200px) {
+
+}
+/* Tablet styles */
+@media (max-width: 768px) {
+
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+.pesan-diskon {
+font-size: 12px;
+/* align-items: center; */
+position: relative;
+right: 70px;
+}
+
+.nomor-telp {
+display: none;
+}
+
+.dropdown-kanan {
+display: none;
+}
+
+.phone-hidden {
+	display: none;
+}
+
+.filters {
+	position: relative;
+}
+.sort-by {
+	position: absolute;
+	right: -20px;
+	/* top: 0; */
+
+}
+}
+
+

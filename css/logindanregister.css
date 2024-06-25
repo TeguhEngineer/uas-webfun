@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+height: auto;
+/* display: flex; */
+align-items: center;
+justify-content: center;
+background-size: cover;
+background-position: center;
+
+padding-top: 20px;
+padding-bottom: 20px;
+/* overflow: hidden; */
+background: linear-gradient(-45deg, #54E0FF, #FFD15B, #54E0FF, #FFD15B);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+.login-form {
+background-color: rgba(255, 255, 255, 0.416);
+padding: 25px 30px 50px 30px;
+border-radius: 10px;
+}
+
+.button-submit {
+    background-color: rgb(0, 187, 187)!important;
+}
+
+.frame {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80%;
+height: 80%;
+border: 2px solid white;
+border-radius: 10px;
+animation: frameAnimation 10s infinite linear alternate;
+}
+
+@keyframes frameAnimation {
+0% {
+transform: translate(-50%, -50%) rotate(0deg);
+}
+100% {
+transform: translate(-50%, -50%) rotate(360deg);
+}
+}

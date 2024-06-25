@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Discount Up to 30%</title>
+    <link rel="shortcut icon" href="img/carts.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <link rel="stylesheet" href="css/dede-styles.css">
+</head>
+
+<body>
+    <!-- Teguh Afriansyah 202302035 -->
+    <!-- Navbar atas -->
+    <nav class="navbar navbar-atas navbar-expand-lg">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white nomor-telp" aria-current="page" href="#"><i
+                            class="bi bi-telephone"></i>
+                        +62 821 5673 3877</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-white pesan-diskon" aria-current="page" href="#">
+                        Get 50% off on selected item | Shop Now</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav dropdown-kanan">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
+                        role="button" aria-expanded="false"><i class="bi bi-globe"></i> Language</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Sunda</a></li>
+                        <li><a class="dropdown-item" href="#">Jawa</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
+                        role="button" aria-expanded="false"><i class="bi bi-geo-alt-fill"></i> Location</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                        <li><a class="dropdown-item" href="#">Singapore</a></li>
+                        <li><a class="dropdown-item" href="#">Malaysia</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-bawah navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="text-decoration-none">
+                <span class="navbar-brand"><img src="img/carts.png" class="me-1" width="30"
+                        alt=""> TechStore</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="modal"
+                            data-bs-target="#categories">Poppular Categories</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="modal"
+                            data-bs-target="#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" type="button">What's New</a>
+                    </li>
+                </ul>
+                <form action="" class="d-flex me-5">
+                    <input type="text" class="me-2 pencarian form-control border border-2"
+                        placeholder="Search Product">
+                    <button class="btn btn-outline-dark btn-sm rounded-3">Search</button>
+                </form>
+                <div class="d-inline-flex ">
+                    <a href="account.html" class="nav-link" type="button"><i class="bi bi-person"></i> Account</a>
+                    <a class="nav-link ms-3" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                            class="bi bi-bag-heart"></i> Cart</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /Teguh Afriansyah 202302035 -->
+
+    <!-- Rafi Assidiqi 202302077 -->
+    <!-- Modal Categories -->
+    <div class="modal fade" id="categories" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1>Popular Categories</h1>
+                                <hr class="my-5">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/premium-photo/creative-designer-desk-with-empty-screen_670147-37043.jpg?w=996"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Monitor</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/free-photo/black-headphones-digital-device_53876-96805.jpg?t=st=1717739755~exp=1717743355~hmac=178fff68937ff2ae1978731a939b43c9aa4e764bfaa29d5580df70c6f9b66fd5&w=740"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Headphone</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 my-4">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/free-photo/top-view-framed-mockup-smartphone_23-2148226818.jpg?t=st=1717741082~exp=1717744682~hmac=2e0b75984f886a12bd1b4b4678e0ac5e14e6e414f584a38429f325001a8bb454&w=740"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Handphone</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 my-4">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/free-photo/white-wireless-optical-mouse-digital-device_53876-96814.jpg?t=st=1717742366~exp=1717745966~hmac=7e7961f15203a0c46db8be1e2fb4df8c6cb0ddf3c26f1afabc6c12da2f9028b6&w=996   "
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Mouse</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/premium-photo/electronic-device-balancing-concept_23-2150422322.jpg?w=900"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Laptop</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img class="rounded" width="100"
+                                                    src="https://img.freepik.com/free-photo/3d-book-with-blank-blue-cover_107791-17004.jpg?t=st=1717741909~exp=1717745509~hmac=3c22307f75c5f81db7b6dfe3c285b10f3edfbf339c06524b3fb089249803619c&w=900"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pt-3">
+                                                <h3>Book</h3>
+                                                <p>240 item available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Rafi Assidiqi 202302077 -->
+
+    <!-- Dede Walied 202302086 -->
+    <!-- Modal Best Seller -->
+    <div class="modal fade" id="best-seller" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-dede">
+                        <h2>Best Seller</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Gambar</th>
+                                    <th>Nama Produk</th>
+                                    <th>Harga</th>
+                                    <th>Stok</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk1.jpg"></td>
+                                    <td>HUAWEI Wireless Mouse GT</td>
+                                    <td>120.000</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk2.jpg"></td>
+                                    <td>Keyboard Asus ROG CLAYMORE</td>
+                                    <td>200.000</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk3.webp"></td>
+                                    <td>Sony WH-CH520 Bluetooth On-Ear Headphones </td>
+                                    <td>100.000</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk4.jpg"></td>
+                                    <td>SSD Radeon™ R7 Series</td>
+                                    <td>365.000</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk5.jpg"></td>
+                                    <td>Wireless Bluetooth 5.3 Stereo Bass Earphones</td>
+                                    <td>220.000</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk6.jpg"></td>
+                                    <td>Music Box JBL WIND 3S Wireless</td>
+                                    <td>80000</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk7.jpg"></td>
+                                    <td>Canon EOS ll DSLR</td>
+                                    <td>4.000.000</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk8.jpg"></td>
+                                    <td>Flashdisk SanDisk USB Type-C</td>
+                                    <td>350000</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk9.jpg"></td>
+                                    <td>Laptop Asus Zenbook 14X OLED</td>
+                                    <td>5.000.000</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-dede" src="img/dede/produk10.jpg"></td>
+                                    <td>APEXEL Lensa Kamera Smartphone Macro Lens Universal HD 100mm</td>
+                                    <td>257000</td>
+                                    <td>10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Dede Walied 202302086 -->
+
+    <!-- Teguh Afriansyah 202302035 -->
+    <!-- Cart -->
+    <div class="offcanvas offcanvas-end .offcanvas-sm" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasRightLabel"><i class="bi bi-bag-heart"></i> Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="overflow-x: hidden;">
+            <div class="card">
+                <div class="card-body p-1 px-2">
+                    <div class="row">
+                        <div class="col-1">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="img/raga/phone.png" class="w-100 border" alt="">
+                        </div>
+                        <div class="col-7 py-0 card-cart">
+                            <p><b>Iphone 15 Pro MAX</b></p>
+                            <small>Lorem ipsum dolor sit amet</small>
+                            <div class="input-group m-0 form-produk">
+                                <button class="btn btn-outline-secondary" type="button" onclick="decrement1()">-</button>
+                                <input type="text" class="form-control-sm center-text" id="number" value="1" min="1" max="50"
+                                    aria-label="Example text with button addon" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" onclick="increment1()">+</button>
+                            </div>
+                            <h6 class="text-bottom">Rp23.000.000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-2">
+                <div class="card-body p-1 px-2">
+                    <div class="row">
+                        <div class="col-1">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="img/raga/ps5.jpg" class="w-100 border" alt="">
+                        </div>
+                        <div class="col-7 py-0 card-cart">
+                            <p><b>Sony Playstation 5</b></p>
+                            <small>Lorem ipsum dolor sit amet</small>
+                            <div class="input-group m-0 form-produk">
+                                <button class="btn btn-outline-secondary" type="button" onclick="decrement2()">-</button>
+                                <input type="text" class="form-control-sm center-text" id="nomor" value="1" min="1" max="50"
+                                    aria-label="Example text with button addon" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" onclick="increment2()">+</button>
+                            </div>
+                            <h6 class="text-bottom">Rp23.000.000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body p-1 px-2">
+                    <div class="row">
+                        <div class="col-1">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="img/raga/nitro.jpg" class="w-100 border" alt="">
+                        </div>
+                        <div class="col-7 py-0 card-cart">
+                            <p><b>Acer Nitro V 15</b></p>
+                            <small>Lorem ipsum dolor sit amet</small>
+                            <div class="input-group m-0 form-produk">
+                                <button class="btn btn-outline-secondary" type="button" onclick="decrement3()">-</button>
+                                <input type="text" class="form-control-sm center-text" id="angka" value="1" min="1" max="50"
+                                    aria-label="Example text with button addon" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" onclick="increment3()">+</button>
+                            </div>
+                            <h6 class="text-bottom">Rp11.249.000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <a href="payment-adi.html">
+                <button class="btn button-jo py-3 form-control">
+                    <h5 class="fw-bold text-white">Buy Now</h5>
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/teguh/launching.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>To make a purchase, please register first</h5>
+                            <a href="register.html">
+                                <button class="btn btn-outline-dark mt-2">Signup Here</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/teguh/promo.png" class="d-block w-100"
+                            alt="...">
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/teguh/discount.png"
+                            class="d-block w-100" alt="...">
+                        
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter -->
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-8 text-start">
+                <div class="d-flex justify-content-start filter-button">
+                    <button class="btn btn-sm px-3 me-1">Headphone Type <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1">Price <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1 phone-hidden">Review <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1">Color <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1 phone-hidden">Material <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1 phone-hidden">Offer <i class="bi bi-chevron-down"></i></button>
+                    <button class="btn btn-sm px-3 mx-1">All Filters <i class="bi bi-funnel"></i></i></button>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-2 filter-button-kanan text-end filters">
+                <button class="btn btn-sm px-3 sort-by">Sort by <i class="bi bi-chevron-down"></i></button>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Teguh Afriansyah 202302035 -->
+
+    <!-- Raga Kusnira 202302051 -->
+    <!-- Product -->
+    <div class="container pt-2 pb-4">
+        <div class="row">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/raga/phone.png" alt="Produk 2">
+                    <div>
+                        <span class="h5">iPhone 15 Pro Max</span>
+                    </div>
+                    <span>Rp 23.000.000</span>
+                    <div>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/ps5.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Sony Playstation 5</span>
+                    </div>
+                    <span>Rp 23.000.000</span>
+                    <div>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/series-x.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Xbox Series X</span>
+                    </div>
+                    <span>Rp 5.000.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/macbook.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Macbook Pro M3</span>
+                    </div>
+                    <span>Rp 41.999.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/keyboard.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Zifriend ZA68</span>
+                    </div>
+                    <span>Rp 1.461.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/nova_gamepad.png" alt="Produk 2">
+                    <div>
+                        <span class="h5">Fantech Nova Pro WGP14 V2</span>
+                    </div>
+                    <span>Rp 540.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/logitech.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Logitech G502 X PLUS</span>
+                    </div>
+                    <span>Rp 2.319.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/vitrix.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Victrix Pro BFG PS5 PlayStation Controller</span>
+                    </div>
+                    <span>Rp 4.385.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/nitro.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Acer Nitro V 15 ANV15-51-542G</span>
+                    </div>
+                    <span>Rp 11.249.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/g733.jpeg" alt="Produk 2">
+                    <div>
+                        <span class="h5">Logitech G733 Lightspeed</span>
+                    </div>
+                    <span>Rp 1.859.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/berryblue.png" alt="Produk 2">
+                    <div>
+                        <span class="h5">Dualshock 4 Berry Blue</span>
+                    </div>
+                    <span>Rp 785.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <img src="img/raga/ally.jpg" alt="Produk 2">
+                    <div>
+                        <span class="h5">ROG Ally X</span>
+                    </div>
+                    <span>Rp 11.450.000</span>
+                    <div>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <a href="detail-product-djohara.html">
+                        <button>Beli Sekarang <i class="bi bi-cart-fill"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>Tentang Kami</h2>
+                <p>Kami adalah toko e-commerce yang menyediakan berbagai produk berkualitas dengan harga terjangkau.
+                    Kami berkomitmen untuk memberikan pengalaman belanja yang terbaik bagi Anda.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Layanan Pelanggan</h2>
+                <ul>
+                    <li><a href="#">Bantuan</a></li>
+                    <li><a href="#">Kontak Kami</a></li>
+                    <li><a href="#">Kebijakan Pengembalian</a></li>
+                    <li><a href="#">Pengiriman</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>Team Development</h2>
+                <ul class="social-links">
+                    <li>
+                        <i class="bi bi-person"> Raga Kunsira</i>
+                        <i class="bi bi-person"> Teguh Afriansyah</i>
+                        <i class="bi bi-person"> Djohara Arifin</i>
+                        <i class="bi bi-person"> Dede Walid</i>
+                        <i class="bi bi-person"> Rafi Assidiq</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechStore. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- /Raga Kusnira 202302051 -->
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- Js Style -->
+     <script src="js/cart.js"></script>
+
+</body>
+
+</html>
