@@ -53,16 +53,14 @@ border-radius: 5px;
 background-color: #e6e6e6;
 border-radius: 5px;
 }
-.filter-button-kanan button {
-/* background-color: #e6e6e6; */
+/* .filter-button-kanan button {
 border-color: #b4b4b4;
 border-radius: 5px;
 }
 .filter-button-kanan button:hover {
-/* background-color: #e6e6e6; */
 border-color: #b4b4b4;
 border-radius: 5px;
-}
+} */
 
 /* Cart */
 .form-check-input {
@@ -133,16 +131,6 @@ display: none;
 
 .phone-hidden {
 	display: none;
-}
-
-.filters {
-	position: relative;
-}
-.sort-by {
-	position: absolute;
-	right: -20px;
-	/* top: 0; */
-
 }
 }
 
